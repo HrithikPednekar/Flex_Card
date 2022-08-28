@@ -1,0 +1,105 @@
+body{
+    background-color: antiquewhite;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+img{
+    height: 5.5rem;
+    width: 5rem;
+}
+
+.container{
+    height: 8rem;
+    width: 15rem;
+    background-color: whitesmoke;
+    margin: auto;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.child:nth-child(1){
+    height: 5.5rem;
+    display: flex;
+    background-color: ghostwhite;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.child:nth-child(2){
+    display: flex;
+    background-color: whitesmoke;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.subchild:nth-child(1){
+    display: flex;
+    gap: 5px;
+}
+
+.btn:nth-child(1){
+    height: 1rem;
+    width: 2.5rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.btn:nth-child(2){
+    height: 1rem;
+    width: 5rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.btn:focus{
+    background: rgb(221, 195, 246);
+}
+
+.subchild:nth-child(2){
+    display: flex;
+    gap: 20px;
+}
+
+.read, .book{
+    color: blueviolet;
+    font-size: 12px;
+}
+
+.details:active{
+    cursor: pointer;
+    background-color: rgb(241, 235, 235);
+}
+
+i{
+    color:grey;
+}
+
+i:active{
+    cursor: pointer;
+    color: black;
+}
